@@ -51,11 +51,11 @@ git clone git@github.com:AlgorithGeek/nox-study.git
 
 ### 安装方式
 
-两种方式获取的文件都按下面的步骤安装：
+两种方式获取的文件都可以按照下面的步骤安装：
 
 1. 在软件 Typora 的「设置 / 偏好设置 → 外观」中打开主题文件夹。
 2. 将项目中的 `nox-study.css` 文件和 `nox-study/` 文件夹一起复制进去。
-3. 最后重启 Typora，在主题菜单中选择 **Nox Study**。
+3. 最后重启 Typora，在主题菜单中选择 **Nox Study**！
 
 字体随主题附带，无需单独安装。`examples/` 文件夹不用复制到主题目录。
 
