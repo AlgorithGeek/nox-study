@@ -9,7 +9,9 @@ nox-study/
 ├── nox-study.css          # 主题样式与配置
 ├── nox-study/             # 字体资源，安装时与 CSS 保持同级
 │   ├── font.css
-│   └── JetBrainsMono-*.woff2
+│   ├── JetBrainsMono-*.woff2
+│   ├── OFL.txt           # 字体版权与许可证
+│   └── FONT-SOURCES.md   # 字体版本、官方来源与校验值
 ├── LICENSE
 └── README.md
 ```
@@ -38,4 +40,4 @@ nox-study/
 
 CSS 中保留了原有版权与 MIT 许可声明，完整文本见 `LICENSE`。
 
-JetBrains Mono 字体不由本项目的 MIT 许可证重新授权。公开分发前，需核对所附字体文件的版本并补齐对应字体许可文本；当前目录作为本地维护源码使用。
+附带的四个 JetBrains Mono 字体为官方 2.242 版本，适用 SIL Open Font License 1.1，不由本项目的 MIT 许可证重新授权。完整字体版权与许可见 [nox-study/OFL.txt](nox-study/OFL.txt)，版本、官方来源和逐文件核验结果见 [字体来源记录](nox-study/FONT-SOURCES.md)。分发时请保留字体目录中的许可证。
