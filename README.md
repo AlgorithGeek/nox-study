@@ -33,7 +33,7 @@
 
 ### 通过 Git 获取
 
-如果想通过 Git 获取后续更新，长久使用最新版，可以克隆仓库：
+如果想通过 Git 获取后续更新，长久快捷获取最新版，可以克隆仓库：
 
 HTTPS（无需配置 SSH 密钥）：
 
@@ -47,15 +47,15 @@ SSH（需要先在 GitHub 配置自己的 SSH 密钥）：
 git clone git@github.com:AlgorithGeek/nox-study.git
 ```
 
-之后在克隆的 `nox-study` 目录中执行 `git pull` 获取更新，再将主题文件重新复制到 Typora 的主题文件夹。
+后续在克隆的 `nox-study` 目录中执行 `git pull` 获取更新，再将主题文件重新复制到 Typora 的主题文件夹即可。
 
-### 安装主题
+### 安装方式
 
 两种方式获取的文件都按下面的步骤安装：
 
-1. 在 Typora 的「设置 / 偏好设置 → 外观」中打开主题文件夹。
-2. 将项目中的 `nox-study.css` 和 `nox-study/` 文件夹一起复制进去。
-3. 重启 Typora，在主题菜单中选择 **Nox Study**。
+1. 在软件 Typora 的「设置 / 偏好设置 → 外观」中打开主题文件夹。
+2. 将项目中的 `nox-study.css` 文件和 `nox-study/` 文件夹一起复制进去。
+3. 最后重启 Typora，在主题菜单中选择 **Nox Study**。
 
 字体随主题附带，无需单独安装。`examples/` 文件夹不用复制到主题目录。
 
@@ -63,22 +63,16 @@ git clone git@github.com:AlgorithGeek/nox-study.git
 
 
 
-## 使用说明
+## 说明
 
-**长代码**：关闭 Typora 的代码块自动换行后，超出宽度的代码可以横向滚动；短代码不会显示横向滚动条。PDF 导出样式会对长代码换行。
+目前在 macOS / Typora 1.14.10 中使用，其他平台尚未测试。PDF 分页和 HTML 离线字体效果也还需要进一步检查。
 
-**高亮**：如需使用 `==高亮内容==`，请在 Typora 中启用对应的 Markdown 扩展。
-
-**自定义**：字体、字号、行距和颜色主要在 `nox-study.css` 开头的 `:root` 中，正文宽度在 `#write` 规则中。修改后重新切换主题，或重启 Typora 查看效果。
-
-目前在 macOS / Typora 1.14.10 中使用。Windows、Linux，以及完整 PDF 分页和 HTML 离线字体效果尚未验证。
-
-遇到显示问题，可以在 [Issues](https://github.com/AlgorithGeek/nox-study/issues) 中附上截图、操作系统和 Typora 版本。
+显示问题可以通过 [Issues](https://github.com/AlgorithGeek/nox-study/issues) 反馈，请附上截图、操作系统和 Typora 版本。
 
 
 
 ## 许可
 
-主题代码使用 [MIT License](LICENSE)，保留原有版权声明。
+主题采用 [MIT License](LICENSE)。
 
-附带的 JetBrains Mono 2.242 字体使用 [SIL Open Font License 1.1](nox-study/OFL.txt)。字体的版本、官方来源和校验值见 [字体来源记录](nox-study/FONT-SOURCES.md)。分发时请保留相应版权声明和许可证。
+内置 JetBrains Mono 字体采用 [SIL OFL 1.1](nox-study/OFL.txt)，相关信息见 [字体来源](nox-study/FONT-SOURCES.md)。
