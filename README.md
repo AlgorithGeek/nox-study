@@ -8,6 +8,8 @@
 
 ![Nox Study 正文、大纲与表格预览](docs/images/overview.png)
 
+
+
 ## 样式
 
 - 白色背景，深灰正文，阅读区域不会铺满整个窗口。
@@ -23,12 +25,29 @@
 
 
 
-## 安装
+## 使用教程
 
-1. [下载源码 ZIP](https://github.com/AlgorithGeek/nox-study/archive/refs/heads/main.zip)，解压。
-2. 在 Typora 的「设置 / 偏好设置 → 外观」中打开主题文件夹。
-3. 将 `nox-study.css` 和 `nox-study/` 文件夹一起复制进去。
-4. 重启 Typora，在主题菜单中选择 **Nox Study**。
+### 下载 ZIP
+
+[下载源码 ZIP](https://github.com/AlgorithGeek/nox-study/archive/refs/heads/main.zip) 并解压。只想安装使用的话，选这个方式就好。
+
+### 通过 Git 获取
+
+如果想修改主题，或通过 Git 获取后续更新，可以克隆仓库：
+
+```bash
+git clone https://github.com/AlgorithGeek/nox-study.git
+```
+
+之后在克隆的 `nox-study` 目录中执行 `git pull` 获取更新，再将主题文件重新复制到 Typora 的主题文件夹。
+
+### 安装主题
+
+两种方式获取的文件都按下面的步骤安装：
+
+1. 在 Typora 的「设置 / 偏好设置 → 外观」中打开主题文件夹。
+2. 将项目中的 `nox-study.css` 和 `nox-study/` 文件夹一起复制进去。
+3. 重启 Typora，在主题菜单中选择 **Nox Study**。
 
 字体随主题附带，无需单独安装。`examples/` 文件夹不用复制到主题目录。
 
