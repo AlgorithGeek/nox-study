@@ -17,8 +17,6 @@
 
 ![Nox Study 代码块与语法配色](docs/images/code.png)
 
-可以在 Typora 中打开示例笔记 [从请求到响应](examples/从请求到响应.md)，切换到 **Nox Study** 查看正文、表格、引用和代码的效果。
-
 ## 安装
 
 1. [下载源码 ZIP](https://github.com/AlgorithGeek/nox-study/archive/refs/heads/main.zip)，解压。
@@ -27,6 +25,8 @@
 4. 重启 Typora，在主题菜单中选择 **Nox Study**。
 
 字体随主题附带，无需单独安装。`examples/` 文件夹不用复制到主题目录。
+
+安装后，可以打开示例笔记 [从请求到响应](examples/从请求到响应.md)，看看实际效果。
 
 ## 使用说明
 
