@@ -1,46 +1,41 @@
 # Nox Study
 
-面向中文学习笔记的 Typora 主题，采用适中的阅读宽度、暖色表格、中性炭灰代码块和清晰的标题层级。
+一个浅色的 Typora 主题，主要用来写笔记、读笔记。
 
-打开示例笔记 [把知识变成自己的理解](examples/把知识变成自己的理解.md)，可查看正文、标题、表格、引用、高亮和任务列表的效果。更多代码展示见 [从请求到响应](examples/从请求到响应.md)。
+最初是为了让自己长时间看学习笔记时更舒服一点，陆续调整了正文宽度、标题、表格和代码块。现在整理出来，分享给有同样需求的人。
 
-## 文件结构
+## 样式
 
-```text
-nox-study/
-├── nox-study.css          # 主题样式与配置
-├── nox-study/             # 字体资源，安装时与 CSS 保持同级
-│   ├── font.css
-│   ├── JetBrainsMono-*.woff2
-│   ├── OFL.txt           # 字体版权与许可证
-│   └── FONT-SOURCES.md   # 字体版本、官方来源与校验值
-├── examples/             # 阅读与技术笔记示例
-├── LICENSE
-└── README.md
-```
+- 白色背景，深灰正文，阅读区域不会铺满整个窗口。
+- 标题层级清楚，方便配合左侧大纲查看长笔记。
+- 表格采用暖灰配色，引用和高亮用少量暖色点缀。
+- 代码块采用炭灰背景，内置 JetBrains Mono 字体。
+
+可以在 Typora 中打开示例笔记 [从请求到响应](examples/从请求到响应.md)，切换到 **Nox Study** 查看正文、表格、引用和代码的效果。
 
 ## 安装
 
-1. 在 Typora 的外观设置中打开主题文件夹。
-2. 将本项目根目录的 `nox-study.css` 和 `nox-study/` 文件夹一起复制进去。
-3. 重启 Typora，在主题菜单中选择 **Nox Study**。
+1. [下载源码 ZIP](https://github.com/AlgorithGeek/nox-study/archive/refs/heads/main.zip)，解压。
+2. 在 Typora 的「设置 / 偏好设置 → 外观」中打开主题文件夹。
+3. 将 `nox-study.css` 和 `nox-study/` 文件夹一起复制进去。
+4. 重启 Typora，在主题菜单中选择 **Nox Study**。
 
-长代码横向滚动需要关闭 Typora 的代码块自动换行设置；该设置由 Typora 管理，不会随 CSS 自动切换。短代码不显示横向滚动条。PDF 打印样式仍会对长代码换行。
+字体随主题附带，无需单独安装。`examples/` 文件夹不用复制到主题目录。
 
-## 本地维护
+## 使用说明
 
-以这个目录中的文件作为源码。修改并验证后，再复制到 Typora 主题文件夹应用。项目不需要构建工具或安装依赖。
+**长代码**：关闭 Typora 的代码块自动换行后，超出宽度的代码可以横向滚动；短代码不会显示横向滚动条。PDF 导出样式会对长代码换行。
 
-主要字体、字号、行距和颜色集中在 `nox-study.css` 开头的 `:root` 中；正文宽度位于 `#write` 规则中。保留 `nox-study.css` 与字体目录的相对位置，避免资源加载失败。
+**高亮**：如需使用 `==高亮内容==`，请在 Typora 中启用对应的 Markdown 扩展。
 
-当前版本从正在使用的主题复制，未包含历史备份、临时测试文件和导出产物。
+**自定义**：字体、字号、行距和颜色主要在 `nox-study.css` 开头的 `:root` 中，正文宽度在 `#write` 规则中。修改后重新切换主题，或重启 Typora 查看效果。
 
-## 验证范围
+目前在 macOS / Typora 1.14.10 中使用。Windows、Linux，以及完整 PDF 分页和 HTML 离线字体效果尚未验证。
 
-已在 macOS 的 Typora 1.14.10 中使用和检查。其他操作系统、完整 PDF 分页和独立 HTML 离线字体仍需发布前验证。
+遇到显示问题，可以在 [Issues](https://github.com/AlgorithGeek/nox-study/issues) 中附上截图、操作系统和 Typora 版本。
 
 ## 许可
 
-CSS 中保留了原有版权与 MIT 许可声明，完整文本见 `LICENSE`。
+主题代码使用 [MIT License](LICENSE)，保留原有版权声明。
 
-附带的四个 JetBrains Mono 字体为官方 2.242 版本，适用 SIL Open Font License 1.1，不由本项目的 MIT 许可证重新授权。完整字体版权与许可见 [nox-study/OFL.txt](nox-study/OFL.txt)，版本、官方来源和逐文件核验结果见 [字体来源记录](nox-study/FONT-SOURCES.md)。分发时请保留字体目录中的许可证。
+附带的 JetBrains Mono 2.242 字体使用 [SIL Open Font License 1.1](nox-study/OFL.txt)。字体的版本、官方来源和校验值见 [字体来源记录](nox-study/FONT-SOURCES.md)。分发时请保留相应版权声明和许可证。
