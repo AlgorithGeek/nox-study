@@ -29,14 +29,22 @@
 
 ### 下载 ZIP
 
-[下载源码 ZIP](https://github.com/AlgorithGeek/nox-study/archive/refs/heads/main.zip) 并解压。只想安装使用的话，选这个方式就好。
+[下载源码 ZIP](https://github.com/AlgorithGeek/nox-study/archive/refs/heads/main.zip) 并解压。只想快速安装使用的话，选这个方式就好。
 
 ### 通过 Git 获取
 
-如果想修改主题，或通过 Git 获取后续更新，可以克隆仓库：
+如果想通过 Git 获取后续更新，长久使用最新版，可以克隆仓库：
+
+HTTPS（无需配置 SSH 密钥）：
 
 ```bash
 git clone https://github.com/AlgorithGeek/nox-study.git
+```
+
+SSH（需要先在 GitHub 配置自己的 SSH 密钥）：
+
+```bash
+git clone git@github.com:AlgorithGeek/nox-study.git
 ```
 
 之后在克隆的 `nox-study` 目录中执行 `git pull` 获取更新，再将主题文件重新复制到 Typora 的主题文件夹。
