@@ -71,16 +71,22 @@ git clone git@github.com:AlgorithGeek/nox-study.git
 
 
 
-## 致谢
-
-感谢 [Drake](https://github.com/liangjingkanji/DrakeTyporaTheme) 提供的主题基础，以及 [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono) 提供的代码字体。
-
-我的学习笔记、代码实验和一些小项目放在 [dev-lab](https://github.com/AlgorithGeek/dev-lab)。
-
-
-
 ## 许可
 
 主题采用 [MIT License](LICENSE)。
 
 内置 JetBrains Mono 字体采用 [SIL OFL 1.1](nox-study/OFL.txt)，相关信息见 [字体来源](nox-study/FONT-SOURCES.md)。
+
+
+
+## 致谢
+
+感谢 [Drake](https://github.com/liangjingkanji/DrakeTyporaTheme) 的作者，提供了很好的主题基础。也感谢 [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono)，提供了清晰、好看的代码字体。
+
+
+
+## 我的另一个仓库
+
+[dev-lab](https://github.com/AlgorithGeek/dev-lab) 是我的个人开发实验室，记录一些学习笔记、代码实验和一些小项目。
+
+里面有整理好的内容，也有做到一半的探索、遇到的问题和随手留下的想法。如果你有点兴趣，可以过去看看呀
