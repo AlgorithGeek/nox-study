@@ -71,6 +71,14 @@ git clone git@github.com:AlgorithGeek/nox-study.git
 
 
 
+## 致谢
+
+感谢 [Drake](https://github.com/liangjingkanji/DrakeTyporaTheme) 提供的主题基础，以及 [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono) 提供的代码字体。
+
+我的学习笔记、代码实验和一些小项目放在 [dev-lab](https://github.com/AlgorithGeek/dev-lab)。
+
+
+
 ## 许可
 
 主题采用 [MIT License](LICENSE)。
