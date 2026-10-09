@@ -6,7 +6,7 @@
 
 正文、大纲、引用和表格的实际效果：
 
-![Nox Study 正文、大纲与表格预览](docs/images/overview.png)
+![Nox Study 正文、大纲与表格预览](images/overview.png)
 
 
 
@@ -21,7 +21,7 @@
 
 ## 代码预览
 
-![Nox Study 代码块与语法配色](docs/images/code.png)
+![Nox Study 代码块与语法配色](images/code.png)
 
 
 
